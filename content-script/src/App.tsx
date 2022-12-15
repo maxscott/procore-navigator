@@ -62,7 +62,25 @@ function currentLocation(objectType: string, path: string) {
 const companyId = currentLocation("company", window.location.pathname);
 const projectId = currentLocation("project", window.location.pathname);
 
-const actions_new = links.map(link => {
+let contextualLinks: Array<{
+  id: string,
+  name: string,
+  shortcut: string,
+  keywords: string,
+  perform: string,
+  area: string
+}> = links;
+
+// if there's no company id, include only the paths which do not require company id
+if (!companyId) {
+  contextualLinks = links.filter(a => a.perform.indexOf('{cid}') === -1);
+}
+// if there's no project id, include only the paths which do not require project id
+if (!projectId) {
+  contextualLinks = links.filter(a => a.perform.indexOf('{pid}') === -1);
+}
+
+const actions_new = contextualLinks.map(link => {
 	return {
 		...link,
 		shortcut: link.shortcut.split(" "),
@@ -78,7 +96,7 @@ const actions_new = links.map(link => {
       }
 
       window.location.pathname = tmpPath;
-    }
+    },
 	}
 });
 
