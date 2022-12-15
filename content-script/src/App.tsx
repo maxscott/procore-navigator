@@ -46,11 +46,39 @@ const groupNameStyle = {
   opacity: 0.5,
 };
 
+
+function currentLocation(objectType: string, path: string) {
+  const objectFirst = new RegExp("([0-9]+)\/" + objectType);
+  const objectLast = new RegExp(objectType + "\/([0-9]+)");
+
+  const match1 = path.match(objectFirst);
+  const match2 = path.match(objectLast);
+
+  if (match1) return match1[1];
+  if (match2) return match2[1];
+  return null;
+}
+
+const companyId = currentLocation("company", window.location.pathname);
+const projectId = currentLocation("project", window.location.pathname);
+
 const actions_new = links.map(link => {
 	return {
 		...link,
 		shortcut: link.shortcut.split(" "),
-		perform: () => (window.location.pathname = link.perform)
+		perform: () => {
+      let tmpPath = link.perform;
+
+      if (companyId) {
+        tmpPath = tmpPath.replaceAll("{cid}", companyId);
+      }
+
+      if (projectId) {
+        tmpPath = tmpPath.replaceAll("{pid}", projectId);
+      }
+
+      window.location.pathname = tmpPath;
+    }
 	}
 });
 
