@@ -10,7 +10,7 @@
   "icons": {},
   "content_scripts": [
     {
-      "matches": ["https://blank.org/*"],
+      "matches": ["https://*.procore.com/*", "https://*.procoretech-qa.com/*"],
       "js": ["content-script/src/main.tsx"],
       "media": []
     }

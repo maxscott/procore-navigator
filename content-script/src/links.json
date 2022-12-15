@@ -1,0 +1,383 @@
+[
+    {
+        "id": "company-home",
+        "name": "Home (List)",
+        "shortcut": "h",
+        "keywords": "Company Home",
+        "perform": "2/company/home",
+        "area": "home"
+    },
+    {
+        "id": "company-executive-dashboard",
+        "name": "Executive Dashboard",
+        "shortcut": "ed",
+        "keywords": "Company Executive Dashboard",
+        "perform": "2/company/home/executive_dashboard",
+        "area": "home"
+    },
+    {
+        "id": "company-health-dashboard",
+        "name": "Health Dashboard",
+        "shortcut": "hd",
+        "keywords": "Company Health Dashboard",
+        "perform": "2/company/home/health_dashboard",
+        "area": "home"
+    },
+    {
+        "id": "company-open-items",
+        "name": "My Open Items",
+        "shortcut": "moi",
+        "keywords": "Company My Open Items",
+        "perform": "2/company/home/my_open_items",
+        "area": "home"
+    },
+    {
+        "id": "project-schedules",
+        "name": "Project Schedules (List)",
+        "shortcut": "ps",
+        "keywords": "Project Schedules",
+        "perform": "2/company/calendar/all"
+    },
+    {
+        "id": "project-schedules-calendar",
+        "name": "Project Schedules (Day)",
+        "shortcut": "psd",
+        "keywords": "Project Schedules Calendar (Day)",
+        "perform": "2/company/calendar/day"
+    },
+    {
+        "id": "project-schedules-calendar-week",
+        "name": "Project Schedules (Week)",
+        "shortcut": "psw",
+        "keywords": "Project Schedules Calendar (Week)",
+        "perform": "2/company/calendar/week"
+    },
+    {
+        "id": "project-schedules-calendar-month",
+        "name": "Project Schedules (Month)",
+        "shortcut": "psm",
+        "keywords": "Project Schedules Calendar (Month)",
+        "perform": "2/company/calendar/month"
+    },
+    {
+        "id": "concierge",
+        "name": "Concierge",
+        "shortcut": "ccg",
+        "keywords": "Concierge",
+        "perform": "2/company/concierge"
+    },
+    {
+        "id": "programs",
+        "name": "Programs",
+        "shortcut": "pg",
+        "keywords": "Program Programs",
+        "perform": "2/company/programs"
+    },
+    {
+        "id": "directory",
+        "name": "Directory",
+        "shortcut": "dir",
+        "keywords": "Directory",
+        "perform": "2/company/directory"
+    },
+    {
+        "id": "reports",
+        "name": "Reports",
+        "shortcut": "rep",
+        "keywords": "Reports",
+        "perform": "2/company/reports"
+    },
+    {
+        "id": "reports-settings",
+        "name": "Reports (Settings)",
+        "shortcut": "repset",
+        "keywords": "Reports Settings Configure",
+        "perform": "2/company/reports/configure_tab"
+    },
+    {
+        "id": "documents",
+        "name": "Documents",
+        "shortcut": "docs",
+        "keywords": "Documents",
+        "perform": "2/company/documents"
+    },
+    {
+        "id": "workflows",
+        "name": "Workflows",
+        "shortcut": "wf",
+        "keywords": "Workflows",
+        "perform": "2/company/workflows"
+    },
+    {
+        "id": "admin",
+        "name": "Admin",
+        "shortcut": "admin",
+        "keywords": "Admin",
+        "perform": "2/company/admin",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-account-info",
+        "name": "Admin (Account Info)",
+        "shortcut": "admin-ai",
+        "keywords": "Admin Account Info",
+        "perform": "2/company/admin/account_information",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-app-installations",
+        "name": "Admin (App Installations)",
+        "shortcut": "admin-app-install",
+        "keywords": "Admin App Installations",
+        "perform": "2/company/admin/app_installations",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-company-information",
+        "name": "Admin (Company Info)",
+        "shortcut": "admin-ci",
+        "keywords": "Admin Company Information",
+        "perform": "2/company/admin/company_information",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-conversations",
+        "name": "Conversations",
+        "shortcut": "admin-conv",
+        "keywords": "Admin Conversations",
+        "perform": "2/company/admin/conversations/access",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-expense-allocations",
+        "name": "Expense Allocations",
+        "shortcut": "admin-expense",
+        "keywords": "Admin Expense Allocations",
+        "perform": "2/company/admin/procore_expense_allocations",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-root-cause-analysis",
+        "name": "Root Cause Analysis",
+        "shortcut": "admin-root-cause-analysis",
+        "keywords": "Admin Root Cause Analysis",
+        "perform": "2/company/admin/root_cause_analysis",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-service-accounts",
+        "name": "Service Accounts",
+        "shortcut": "admin-svc-acct",
+        "keywords": "Admin Service Accounts",
+        "perform": "2/company/admin/service_accounts",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-sso",
+        "name": "Single Sign-on Config",
+        "shortcut": "admin-sso",
+        "keywords": "Admin Single Sign On SSO",
+        "perform": "2/company/admin/single_sign_on_configurations",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-trades",
+        "name": "Admin Trades",
+        "shortcut": "admin-trades",
+        "keywords": "Admin Trades",
+        "perform": "2/company/admin/trades",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-uom",
+        "name": "Unit Of Measure List",
+        "shortcut": "admin-uom",
+        "keywords": "Admin Unit Of Measure Master UOM",
+        "perform": "2/company/admin/uom_master_list",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-webhooks",
+        "name": "Admin Webhooks",
+        "shortcut": "admin-wh",
+        "keywords": "Admin Webhooks",
+        "perform": "2/company/admin/webhooks",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-wbs",
+        "name": "Admin Work Breakdown Structure",
+        "shortcut": "admin-wbs",
+        "keywords": "Admin Work Breakdown Structure WBS",
+        "perform": "2/company/admin/tools/wbs",
+        "area": "company settings"
+    },
+    {
+        "id": "admin-proj-dates",
+        "name": "Admin Project Dates",
+        "shortcut": "admin-proj-date",
+        "keywords": "Admin Project Dates",
+        "perform": "2/company/project_dates",
+        "area": "project settings"
+    },
+    {
+        "id": "admin-proj-template",
+        "name": "Admin Project Template",
+        "shortcut": "admin-proj-template",
+        "keywords": "Admin Project Template Templates",
+        "perform": "2/company/admin/project_templates",
+        "area": "project settings"
+    },
+    {
+        "id": "admin-fieldsets",
+        "name": "Admin Project Fieldset",
+        "shortcut": "admin-proj-fs",
+        "keywords": "Admin Project Fieldset",
+        "perform": "2/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AProject",
+        "area": "project settings"
+    },
+    {
+        "id": "admin-proj-roles",
+        "name": "Admin Project Roles",
+        "shortcut": "admin-proj-roles",
+        "keywords": "Admin Project Roles",
+        "perform": "2/company/project_roles",
+        "area": "project settings"
+    },
+    {
+        "id": "admin-bidding",
+        "name": "Admin Bidding",
+        "shortcut": "admin-bidding",
+        "keywords": "Admin Bidding",
+        "perform": "2/company/admin/bidding_defaults",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-budget",
+        "name": "Admin Budget",
+        "shortcut": "admin-budget",
+        "keywords": "Admin Budget",
+        "perform": "company/2/budget_templates",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-change management",
+        "name": "Admin Change Management",
+        "shortcut": "admin-change management",
+        "keywords": "Admin Change Management",
+        "perform": "2/company/change_order_configurations",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-contracts",
+        "name": "Admin Contracts",
+        "shortcut": "admin-contracts",
+        "keywords": "Admin Contracts",
+        "perform": "2/company/admin/contracts",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-contextual help",
+        "name": "Admin Contextual Help",
+        "shortcut": "admin-contextual help",
+        "keywords": "Admin Contextual Help",
+        "perform": "2/company/admin/contextual_help",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-directory",
+        "name": "Admin Directory",
+        "shortcut": "admin-directory",
+        "keywords": "Admin Directory",
+        "perform": "2/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AContact&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AVendor",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-daily log",
+        "name": "Admin Daily Log",
+        "shortcut": "admin-daily log",
+        "keywords": "Admin Daily Log",
+        "perform": "2/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AManpowerLog&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3ANotesLog&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3ADailyConstructionReportLog&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AWeatherLog&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AVisitorLog&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AEquipmentLog",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-project documents",
+        "name": "Admin Project Documents",
+        "shortcut": "admin-project documents",
+        "keywords": "Admin Project Documents",
+        "perform": "2/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AFolder",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-drawings",
+        "name": "Admin Drawings",
+        "shortcut": "admin-drawings",
+        "keywords": "Admin Drawings",
+        "perform": "2/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3ADrawingRevision",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-forms",
+        "name": "Admin Forms",
+        "shortcut": "admin-forms",
+        "keywords": "Admin Forms",
+        "perform": "2/company/admin/form_templates",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-inspections",
+        "name": "Admin Inspections",
+        "shortcut": "admin-inspections",
+        "keywords": "Admin Inspections",
+        "perform": "2/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AChecklist%3A%3AList",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-meetings",
+        "name": "Admin Meetings",
+        "shortcut": "admin-meetings",
+        "keywords": "Admin Meetings",
+        "perform": "2/company/admin/meeting_templates",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-punch list",
+        "name": "Admin Punch List",
+        "shortcut": "admin-punch list",
+        "keywords": "Admin Punch List",
+        "perform": "2/company/admin/punch_item_templates",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-rfis",
+        "name": "Admin RFIs",
+        "shortcut": "admin-rfis",
+        "keywords": "Admin RFIs",
+        "perform": "2/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3ARfi%3A%3AHeader",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-specifications",
+        "name": "Admin Specifications",
+        "shortcut": "admin-specifications",
+        "keywords": "Admin Specifications",
+        "perform": "2/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3ASpecificationSectionRevision",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-submittals",
+        "name": "Admin Submittals",
+        "shortcut": "admin-submittals",
+        "keywords": "Admin Submittals",
+        "perform": "2/company/admin/submittal_log_configuration",
+        "area": "tool settings"
+    },
+    {
+        "id": "admin-tax codes",
+        "name": "Admin Tax Codes",
+        "shortcut": "admin-tax codes",
+        "keywords": "Admin Tax Codes",
+        "perform": "2/company/tax_configurations",
+        "area": "tool settings"
+    }
+]

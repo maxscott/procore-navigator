@@ -1,6 +1,4 @@
-# React TypeScript Chrome Extension
-
-This repository includes examples of how to set up a Chrome Extension with React and TypeScript.
+# Procore CMD + K
 
 This project uses [Vite](https://vitejs.dev/) and [crxjs](https://crxjs.dev/vite-plugin) to build the extension.
 
@@ -44,4 +42,4 @@ The content script source code is in the `content-script` directory.
 
 ## Background
 
-This repository was originally part of [How to inject a React app into a Chrome Extension as a Content Script](https://medium.com/@yosevu/how-to-inject-a-react-app-into-a-chrome-extension-as-a-content-script-3a038f611067). 
+This repository was based on the work described in the blog post [How to inject a React app into a Chrome Extension as a Content Script](https://medium.com/@yosevu/how-to-inject-a-react-app-into-a-chrome-extension-as-a-content-script-3a038f611067). 

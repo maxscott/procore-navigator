@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './main.css'
 import App from './App'
 
-const body = document.querySelector('body')
+const body = document.querySelector('main')
 
 const app = document.createElement('div')
 

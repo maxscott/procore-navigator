@@ -1,14 +1,16 @@
 {
-  "name": "react-content-script",
+  "name": "procore-cmd-k",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "zip": "zip -r chrome-item.zip ./dist"
   },
   "dependencies": {
+    "kbar": "^0.1.0-beta.39",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "web-vitals": "^3.0.3"
