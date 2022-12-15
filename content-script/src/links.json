@@ -35,26 +35,26 @@
         "id": "project-schedules",
         "name": "Project Schedules (List)",
         "shortcut": "ps",
-        "keywords": "Project Schedules",
+        "keywords": "Project Schedules Schedule (List)",
         "perform": "2/company/calendar/all"
     },
     {
         "id": "project-schedules-calendar",
-        "name": "Project Schedules (Day)",
+        "name": "Project Calendar (Day)",
         "shortcut": "psd",
         "keywords": "Project Schedules Calendar (Day)",
         "perform": "2/company/calendar/day"
     },
     {
         "id": "project-schedules-calendar-week",
-        "name": "Project Schedules (Week)",
+        "name": "Project Calendar (Week)",
         "shortcut": "psw",
         "keywords": "Project Schedules Calendar (Week)",
         "perform": "2/company/calendar/week"
     },
     {
         "id": "project-schedules-calendar-month",
-        "name": "Project Schedules (Month)",
+        "name": "Project Calendar (Month)",
         "shortcut": "psm",
         "keywords": "Project Schedules Calendar (Month)",
         "perform": "2/company/calendar/month"
@@ -379,5 +379,37 @@
         "keywords": "Admin Tax Codes",
         "perform": "2/company/tax_configurations",
         "area": "tool settings"
+    },
+    {
+        "id": "permisions",
+        "name": "Permissions",
+        "shortcut": "permissions",
+        "keywords": "Permissions",
+        "perform": "2/company/permissions",
+        "area": "permissions"
+    },
+    {
+        "id": "permissions-users",
+        "name": "User Permissions",
+        "shortcut": "user-permissions",
+        "keywords": "User Permissions",
+        "perform": "/2/company/permissions/users",
+        "area": "permissions"
+    },
+    {
+        "id": "permissions-company-templates",
+        "name": "Company Permission Templates",
+        "shortcut": "company-permission-templates",
+        "keywords": "Company Permission Permissions Templates",
+        "perform": "2/company/permissions/company_permission_templates",
+        "area": "permissions"
+    },
+    {
+        "id": "permissions-project-templates",
+        "name": "Project Permissions Templates",
+        "shortcut": "project-permissions-templates",
+        "keywords": "Project Permissions Permissions Templates",
+        "perform": "2/company/permissions/permission_templates",
+        "area": "permissions"
     }
 ]

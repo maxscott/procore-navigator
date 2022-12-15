@@ -1,8 +1,6 @@
 /// <reference types="chrome" />
 /// <reference types="vite-plugin-svgr/client" />
 
-// import './App.css'
-
 import {
   KBarProvider,
   KBarPortal,
@@ -10,11 +8,14 @@ import {
   KBarAnimator,
   KBarSearch,
   useMatches,
-  NO_GROUP,
-	KBarResults
+  KBarResults,
+  ActionImpl
 } from "kbar";
 
 import links from './links.json';
+
+import './styles.css';
+
 
 const actions_new = links.map(link => {
 	return {
@@ -23,6 +24,10 @@ const actions_new = links.map(link => {
 		perform: () => (window.location.pathname = link.perform)
 	}
 });
+
+const options = {
+  toggleShortcut: "/"
+}
 
 function RenderResults() {
   const { results } = useMatches();
@@ -49,11 +54,11 @@ function RenderResults() {
 
 function App() {
   return (
-    <KBarProvider actions={actions_new}>
+    <KBarProvider actions={actions_new} options={options}>
       <KBarPortal>
         <KBarPositioner>
-          <KBarAnimator>
-            <KBarSearch />
+          <KBarAnimator className="animator">
+            <KBarSearch className="search"/>
 						<RenderResults />
           </KBarAnimator>
         </KBarPositioner>
@@ -62,6 +67,4 @@ function App() {
   );
 }
 
-export default App
-
-
+export default App;
