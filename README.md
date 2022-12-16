@@ -1,5 +1,7 @@
 # Procore Navigator
 
+![demo1-small](https://user-images.githubusercontent.com/1237203/208167332-602e3338-0c7f-4508-aaf6-af9cf3f648f6.gif)
+
 Navigate Procore at lightning speed with a couple keystrokes.
 
 This project uses [Vite](https://vitejs.dev/) and [crxjs](https://crxjs.dev/vite-plugin) to build the extension.
