@@ -1,12 +1,14 @@
-# Procore CMD + K
+# Procore Navigator
+
+Navigate Procore at lightning speed with a couple keystrokes.
 
 This project uses [Vite](https://vitejs.dev/) and [crxjs](https://crxjs.dev/vite-plugin) to build the extension.
 
-## Setup
+## Development
 
 ### Clone repository
 ```sh
-git clone git@github.com:yosevu/react-content-script.git
+git clone git@github.com:maxscott/procore-navigator.git
 ```
 
 ### Install dependencies
@@ -37,8 +39,6 @@ The popup source code is at the root directory.
 ## [Content Script](https://developer.chrome.com/docs/extensions/mv3/content_scripts/)
 
 The content script source code is in the `content-script` directory.
-
-<img width="895" alt="Screen Shot 2022-06-18 at 10 04 04 AM" src="https://user-images.githubusercontent.com/16216104/174416528-6e5ad272-5faa-41d4-a717-c210ed4924b0.png">
 
 ## Background
 
