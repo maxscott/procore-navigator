@@ -46,6 +46,15 @@ const groupNameStyle = {
   opacity: 0.5,
 };
 
+type Link = {
+  id: string,
+  name: string,
+  shortcut?: string,
+  keywords: string,
+  perform: string,
+  area: string,
+  scope: string
+}
 
 function currentLocation(objectType: string, path: string) {
   const objectFirst = new RegExp("([0-9]+)\/" + objectType);
@@ -59,46 +68,46 @@ function currentLocation(objectType: string, path: string) {
   return null;
 }
 
-const companyId = currentLocation("company", window.location.pathname);
-const projectId = currentLocation("project", window.location.pathname);
+function processLinks(companyId: string | null) {
+  let contextualLinks: Array<Link> = links;
 
-let contextualLinks: Array<{
-  id: string,
-  name: string,
-  shortcut: string,
-  keywords: string,
-  perform: string,
-  area: string
-}> = links;
+  if (companyId === null) {
+    companyId =
+      currentLocation("company", window.location.pathname) ||
+      currentLocation("companies", window.location.pathname);
+  }
 
-// if there's no company id, include only the paths which do not require company id
-if (!companyId) {
-  contextualLinks = links.filter(a => a.perform.indexOf('{cid}') === -1);
+  const projectId = currentLocation("project", window.location.pathname);
+
+  // if there's no company id, include only the paths which do not require company id
+  if (!companyId) {
+    contextualLinks = links.filter(a => a.perform.indexOf('{cid}') === -1);
+  }
+  // if there's no project id, include only the paths which do not require project id
+  if (!projectId) {
+    contextualLinks = links.filter(a => a.perform.indexOf('{pid}') === -1);
+  }
+
+  return contextualLinks.map(link => {
+    return {
+      ...link,
+      shortcut: link.shortcut?.split(" "),
+      perform: () => {
+        let tmpPath = link.perform;
+
+        if (companyId) {
+          tmpPath = tmpPath.replaceAll("{cid}", companyId);
+        }
+
+        if (projectId) {
+          tmpPath = tmpPath.replaceAll("{pid}", projectId);
+        }
+
+        window.location.pathname = tmpPath;
+      },
+    }
+  });
 }
-// if there's no project id, include only the paths which do not require project id
-if (!projectId) {
-  contextualLinks = links.filter(a => a.perform.indexOf('{pid}') === -1);
-}
-
-const actions_new = contextualLinks.map(link => {
-	return {
-		...link,
-		shortcut: link.shortcut.split(" "),
-		perform: () => {
-      let tmpPath = link.perform;
-
-      if (companyId) {
-        tmpPath = tmpPath.replaceAll("{cid}", companyId);
-      }
-
-      if (projectId) {
-        tmpPath = tmpPath.replaceAll("{pid}", projectId);
-      }
-
-      window.location.pathname = tmpPath;
-    },
-	}
-});
 
 const options = {
   toggleShortcut: "/"
@@ -228,14 +237,17 @@ function RenderResults() {
   );
 }
 
-function App() {
+function App({ companyId }: { companyId: string | null }) {
+
+  const actions = processLinks(companyId);
+
   return (
-    <KBarProvider actions={actions_new} options={options}>
+    <KBarProvider actions={actions} options={options}>
       <KBarPortal>
         <KBarPositioner>
           <KBarAnimator style={animatorStyle}>
             <KBarSearch style={searchStyle} />
-						<RenderResults />
+            <RenderResults />
           </KBarAnimator>
         </KBarPositioner>
       </KBarPortal>

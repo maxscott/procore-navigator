@@ -1,482 +1,1002 @@
 [
     {
         "id": "company-home",
-        "name": "Home (List)",
+        "name": "Company > Home",
         "shortcut": "h",
         "keywords": "Company Home",
         "perform": "{cid}/company/home",
-        "area": "home"
+        "area": "home",
+        "scope": "company"
     },
     {
         "id": "company-executive-dashboard",
-        "name": "Executive Dashboard",
+        "name": "Company > Executive Dashboard",
         "shortcut": "ed",
         "keywords": "Company Executive Dashboard",
         "perform": "{cid}/company/home/executive_dashboard",
-        "area": "home"
+        "area": "home",
+        "scope": "company"
     },
     {
         "id": "company-health-dashboard",
-        "name": "Health Dashboard",
+        "name": "Company > Health Dashboard",
         "shortcut": "hd",
         "keywords": "Company Health Dashboard",
         "perform": "{cid}/company/home/health_dashboard",
-        "area": "home"
+        "area": "home",
+        "scope": "company"
     },
     {
         "id": "company-open-items",
-        "name": "My Open Items",
+        "name": "Company > My Open Items",
         "shortcut": "moi",
         "keywords": "Company My Open Items",
         "perform": "{cid}/company/home/my_open_items",
-        "area": "home"
+        "area": "home",
+        "scope": "company"
     },
     {
         "id": "project-schedules",
-        "name": "Project Schedules (List)",
+        "name": "Company > Project Schedules",
         "shortcut": "ps",
         "keywords": "Project Schedules Schedule (List)",
         "perform": "{cid}/company/calendar/all",
-        "area": "project management"
+        "area": "project management",
+        "scope": "company"
     },
     {
         "id": "project-schedules-calendar",
-        "name": "Project Calendar (Day)",
+        "name": "Company > Project Calendar (Day)",
         "shortcut": "psd",
         "keywords": "Project Schedules Calendar (Day)",
         "perform": "{cid}/company/calendar/day",
-        "area": "project management"
+        "area": "project management",
+        "scope": "company"
     },
     {
         "id": "project-schedules-calendar-week",
-        "name": "Project Calendar (Week)",
+        "name": "Company > Project Calendar (Week)",
         "shortcut": "psw",
         "keywords": "Project Schedules Calendar (Week)",
         "perform": "{cid}/company/calendar/week",
-        "area": "project management"
+        "area": "project management",
+        "scope": "company"
     },
     {
         "id": "project-schedules-calendar-month",
-        "name": "Project Calendar (Month)",
+        "name": "Company > Project Calendar (Month)",
         "shortcut": "psm",
         "keywords": "Project Schedules Calendar (Month)",
         "perform": "{cid}/company/calendar/month",
-        "area": "project management"
+        "area": "project management",
+        "scope": "company"
     },
     {
         "id": "concierge",
-        "name": "Concierge",
+        "name": "Company > Concierge",
         "shortcut": "ccg",
         "keywords": "Concierge",
         "perform": "{cid}/company/concierge",
-        "area": "core"
+        "area": "core",
+        "scope": "company"
     },
     {
         "id": "programs",
-        "name": "Programs",
+        "name": "Company > Programs",
         "shortcut": "pg",
         "keywords": "Program Programs",
         "perform": "{cid}/company/programs",
-        "area": "core"
+        "area": "core",
+        "scope": "company"
     },
     {
         "id": "directory",
-        "name": "Directory",
+        "name": "Company > Directory",
         "shortcut": "dir",
         "keywords": "Directory",
         "perform": "{cid}/company/directory",
-        "area": "core"
+        "area": "core",
+        "scope": "company"
     },
     {
         "id": "reports",
-        "name": "Reports",
+        "name": "Company > Reports",
         "shortcut": "rep",
         "keywords": "Reports",
         "perform": "{cid}/company/reports",
-        "area": "core"
+        "area": "core",
+        "scope": "company"
     },
     {
         "id": "reports-settings",
-        "name": "Reports (Settings)",
+        "name": "Company > Reports (Settings)",
         "shortcut": "repset",
         "keywords": "Reports Settings Configure",
         "perform": "{cid}/company/reports/configure_tab",
-        "area": "core"
+        "area": "core",
+        "scope": "company"
     },
     {
         "id": "documents",
-        "name": "Documents",
+        "name": "Company > Documents",
         "shortcut": "docs",
         "keywords": "Documents",
         "perform": "{cid}/company/documents",
-        "area": "core"
+        "area": "core",
+        "scope": "company"
     },
     {
         "id": "workflows",
-        "name": "Workflows",
+        "name": "Company > Workflows",
         "shortcut": "wf",
         "keywords": "Workflows",
         "perform": "{cid}/company/workflows",
-        "area": "core"
+        "area": "core",
+        "scope": "company"
     },
     {
         "id": "admin",
-        "name": "Admin",
-        "shortcut": "admin",
+        "name": "Company > Admin",
         "keywords": "Admin",
         "perform": "{cid}/company/admin",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-account-info",
-        "name": "Admin (Account Info)",
-        "shortcut": "admin-ai",
+        "name": "Company > Admin > Account Info",
         "keywords": "Admin Account Info",
         "perform": "{cid}/company/admin/account_information",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-app-installations",
-        "name": "Admin (App Installations)",
-        "shortcut": "admin-app-install",
+        "name": "Company > Admin > App Installations",
         "keywords": "Admin App Installations",
         "perform": "{cid}/company/admin/app_installations",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-company-information",
-        "name": "Admin (Company Info)",
-        "shortcut": "admin-ci",
+        "name": "Company > Admin > Company Info",
         "keywords": "Admin Company Information",
         "perform": "{cid}/company/admin/company_information",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-conversations",
-        "name": "Conversations",
-        "shortcut": "admin-conv",
+        "name": "Company > Admin > Conversations",
         "keywords": "Admin Conversations",
         "perform": "{cid}/company/admin/conversations/access",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-expense-allocations",
-        "name": "Expense Allocations",
-        "shortcut": "admin-expense",
+        "name": "Company > Admin > Expense Allocations",
         "keywords": "Admin Expense Allocations",
         "perform": "{cid}/company/admin/procore_expense_allocations",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-root-cause-analysis",
-        "name": "Root Cause Analysis",
-        "shortcut": "admin-root-cause-analysis",
+        "name": "Company > Admin > Root Cause Analysis",
         "keywords": "Admin Root Cause Analysis",
         "perform": "{cid}/company/admin/root_cause_analysis",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-service-accounts",
-        "name": "Service Accounts",
-        "shortcut": "admin-svc-acct",
+        "name": "Company > Admin > Service Accounts",
         "keywords": "Admin Service Accounts",
         "perform": "{cid}/company/admin/service_accounts",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-sso",
-        "name": "Single Sign-on Config",
-        "shortcut": "admin-sso",
+        "name": "Company > Admin > Single Sign-on Config",
         "keywords": "Admin Single Sign On SSO",
         "perform": "{cid}/company/admin/single_sign_on_configurations",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-trades",
-        "name": "Admin Trades",
-        "shortcut": "admin-trades",
+        "name": "Company > Admin > Trades",
         "keywords": "Admin Trades",
         "perform": "{cid}/company/admin/trades",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-uom",
-        "name": "Unit Of Measure List",
-        "shortcut": "admin-uom",
+        "name": "Company > Admin > Unit Of Measure List",
         "keywords": "Admin Unit Of Measure Master UOM",
         "perform": "{cid}/company/admin/uom_master_list",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-webhooks",
-        "name": "Admin Webhooks",
-        "shortcut": "admin-wh",
+        "name": "Company > Admin > Webhooks",
         "keywords": "Admin Webhooks",
         "perform": "{cid}/company/admin/webhooks",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-wbs",
-        "name": "Admin Work Breakdown Structure",
-        "shortcut": "admin-wbs",
+        "name": "Company > Admin > Work Breakdown Structure",
         "keywords": "Admin Work Breakdown Structure WBS",
         "perform": "{cid}/company/admin/tools/wbs",
-        "area": "company settings"
+        "area": "company settings",
+        "scope": "company"
     },
     {
         "id": "admin-proj-dates",
-        "name": "Admin Project Dates",
-        "shortcut": "admin-proj-date",
+        "name": "Company > Admin > Project Dates",
         "keywords": "Admin Project Dates",
         "perform": "{cid}/company/project_dates",
-        "area": "project settings"
+        "area": "project settings",
+        "scope": "company"
     },
     {
         "id": "admin-proj-template",
-        "name": "Admin Project Template",
-        "shortcut": "admin-proj-template",
+        "name": "Company > Admin > Project Template",
         "keywords": "Admin Project Template Templates",
         "perform": "{cid}/company/admin/project_templates",
-        "area": "project settings"
+        "area": "project settings",
+        "scope": "company"
     },
     {
         "id": "admin-fieldsets",
-        "name": "Admin Project Fieldset",
-        "shortcut": "admin-proj-fs",
+        "name": "Company > Admin > Project Fieldset",
         "keywords": "Admin Project Fieldset",
         "perform": "{cid}/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AProject",
-        "area": "project settings"
+        "area": "project settings",
+        "scope": "company"
     },
     {
         "id": "admin-proj-roles",
-        "name": "Admin Project Roles",
-        "shortcut": "admin-proj-roles",
+        "name": "Company > Admin > Project Roles",
         "keywords": "Admin Project Roles",
         "perform": "{cid}/company/project_roles",
-        "area": "project settings"
+        "area": "project settings",
+        "scope": "company"
     },
     {
         "id": "admin-bidding",
-        "name": "Admin Bidding",
-        "shortcut": "admin-bidding",
+        "name": "Company > Admin > Bidding",
         "keywords": "Admin Bidding",
         "perform": "{cid}/company/admin/bidding_defaults",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-budget",
-        "name": "Admin Budget",
-        "shortcut": "admin-budget",
+        "name": "Company > Admin > Budget",
         "keywords": "Admin Budget",
         "perform": "company/{cid}/budget_templates",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
-        "id": "admin-change management",
-        "name": "Admin Change Management",
-        "shortcut": "admin-change management",
+        "id": "admin-change-management",
+        "name": "Company > Admin > Change Management",
         "keywords": "Admin Change Management",
         "perform": "{cid}/company/change_order_configurations",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-contracts",
-        "name": "Admin Contracts",
-        "shortcut": "admin-contracts",
+        "name": "Company > Admin > Contracts",
         "keywords": "Admin Contracts",
         "perform": "{cid}/company/admin/contracts",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-contextual help",
-        "name": "Admin Contextual Help",
-        "shortcut": "admin-contextual help",
+        "name": "Company > Admin > Contextual Help",
         "keywords": "Admin Contextual Help",
         "perform": "{cid}/company/admin/contextual_help",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-directory",
-        "name": "Admin Directory",
-        "shortcut": "admin-directory",
+        "name": "Company > Admin > Directory",
         "keywords": "Admin Directory",
         "perform": "{cid}/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AContact&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AVendor",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-daily log",
-        "name": "Admin Daily Log",
-        "shortcut": "admin-daily log",
+        "name": "Company > Admin > Daily Log",
         "keywords": "Admin Daily Log",
         "perform": "{cid}/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AManpowerLog&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3ANotesLog&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3ADailyConstructionReportLog&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AWeatherLog&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AVisitorLog&configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AEquipmentLog",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
-        "id": "admin-project documents",
-        "name": "Admin Project Documents",
-        "shortcut": "admin-project documents",
+        "id": "admin-project-documents",
+        "name": "Company > Admin > Project Documents",
         "keywords": "Admin Project Documents",
         "perform": "{cid}/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AFolder",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-drawings",
-        "name": "Admin Drawings",
-        "shortcut": "admin-drawings",
+        "name": "Company > Admin > Drawings",
         "keywords": "Admin Drawings",
         "perform": "{cid}/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3ADrawingRevision",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-forms",
-        "name": "Admin Forms",
-        "shortcut": "admin-forms",
+        "name": "Company > Admin > Forms",
         "keywords": "Admin Forms",
         "perform": "{cid}/company/admin/form_templates",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-inspections",
-        "name": "Admin Inspections",
-        "shortcut": "admin-inspections",
+        "name": "Company > Admin > Inspections",
         "keywords": "Admin Inspections",
         "perform": "{cid}/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3AChecklist%3A%3AList",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-meetings",
-        "name": "Admin Meetings",
-        "shortcut": "admin-meetings",
+        "name": "Company > Admin > Meetings",
         "keywords": "Admin Meetings",
         "perform": "{cid}/company/admin/meeting_templates",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-punch list",
-        "name": "Admin Punch List",
-        "shortcut": "admin-punch list",
+        "name": "Company > Admin > Punch List",
         "keywords": "Admin Punch List",
         "perform": "{cid}/company/admin/punch_item_templates",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-rfis",
-        "name": "Admin RFIs",
-        "shortcut": "admin-rfis",
+        "name": "Company > Admin > RFIs",
         "keywords": "Admin RFIs",
         "perform": "{cid}/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3ARfi%3A%3AHeader",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-specifications",
-        "name": "Admin Specifications",
-        "shortcut": "admin-specifications",
+        "name": "Company > Admin > Specifications",
         "keywords": "Admin Specifications",
         "perform": "{cid}/company/admin/configurable_field_sets?configurable_field_set_types%5B%5D=ConfigurableFieldSet%3A%3ASpecificationSectionRevision",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "admin-submittals",
-        "name": "Admin Submittals",
-        "shortcut": "admin-submittals",
+        "name": "Company > Admin > Submittals",
         "keywords": "Admin Submittals",
         "perform": "{cid}/company/admin/submittal_log_configuration",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
-        "id": "admin-tax codes",
-        "name": "Admin Tax Codes",
-        "shortcut": "admin-tax codes",
+        "id": "admin-tax-codes",
+        "name": "Company > Admin > Tax Codes",
         "keywords": "Admin Tax Codes",
         "perform": "{cid}/company/tax_configurations",
-        "area": "tool settings"
+        "area": "tool settings",
+        "scope": "company"
     },
     {
         "id": "permisions",
-        "name": "Permissions",
+        "name": "Company > Permissions",
         "shortcut": "per",
         "keywords": "Permissions",
         "perform": "{cid}/company/permissions",
-        "area": "permissions"
+        "area": "permissions",
+        "scope": "company"
     },
     {
         "id": "permissions-users",
-        "name": "User Permissions",
+        "name": "Company > Permissions > Users",
         "shortcut": "up",
         "keywords": "User Permissions",
         "perform": "/{cid}/company/permissions/users",
-        "area": "permissions"
+        "area": "permissions",
+        "scope": "company"
     },
     {
         "id": "permissions-company-templates",
-        "name": "Company Permission Templates",
+        "name": "Company > Permissions > Company Templates",
         "shortcut": "cpt",
         "keywords": "Company Permission Permissions Templates",
         "perform": "{cid}/company/permissions/company_permission_templates",
-        "area": "permissions"
+        "area": "permissions",
+        "scope": "company"
     },
     {
         "id": "permissions-project-templates",
-        "name": "Project Permissions Templates",
+        "name": "Company > Permissions > Project Templates",
         "shortcut": "ppt",
         "keywords": "Project Permissions Permissions Templates",
         "perform": "{cid}/company/permissions/permission_templates",
-        "area": "permissions"
+        "area": "permissions",
+        "scope": "company"
     },
     {
         "id": "managed-equipment",
-        "name": "Equipment",
+        "name": "Company > Equipment",
         "shortcut": "eq",
         "keywords": "Managed Equipment Workforce",
         "perform": "{cid}/company/managed_equipment",
-        "area": "workforce mgmt"
+        "area": "workforce mgmt",
+        "scope": "company"
     },
     {
         "id": "quality-safety",
-        "name": "Quality & Safety Overview",
+        "name": "Company > Quality & Safety Overview",
         "shortcut": "qas",
         "keywords": "Quality Safety Overview Dashboard",
         "perform": "{cid}/company/standard_dashboards/quality_and_safety",
-        "area": "project management"
+        "area": "project management",
+        "scope": "company"
     },
     {
         "id": "pm-dashbaord",
-        "name": "Project Management Dashboard",
+        "name": "Company > Project Management Dashboard",
         "shortcut": "pmd",
         "keywords": "Project Management Dashboard",
         "perform": "{cid}/company/standard_dashboards/pm_essentials",
-        "area": "project management"
+        "area": "project management",
+        "scope": "company"
     },
     {
         "id": "timecard-list",
-        "name": "Timecard",
+        "name": "Company > Timecard",
         "shortcut": "tc",
         "keywords": "Timecard Time",
         "perform": "{cid}/company/timecard/list",
-        "area": "project management"
+        "area": "project management",
+        "scope": "company"
     },
     {
         "id": "inspections",
-        "name": "Inspections",
+        "name": "Company > Inspections",
         "shortcut": "ins",
         "keywords": "Inspections",
         "perform": "{cid}/company/checklists/list_templates/",
-        "area": "project management"
+        "area": "project management",
+        "scope": "company"
     },
     {
         "id": "planroom",
-        "name": "Planroom",
+        "name": "Company > Planroom",
         "shortcut": "pr",
         "keywords": "Planroom Precon",
         "perform": "{cid}/company/planroom",
-        "area": "preconstruction"
+        "area": "preconstruction",
+        "scope": "company"
     },
     {
         "id": "financial-mgmt",
-        "name": "Financials Dashboard",
+        "name": "Company > Financials Dashboard",
         "shortcut": "find",
         "keywords": "Financial Management Money Spend",
         "perform": "{cid}/company/standard_dashboards/financials",
-        "area": "financial mgmt"
+        "area": "financial mgmt",
+        "scope": "company"
+    },
+    {
+        "id": "project-home",
+        "name": "Project > Home",
+        "shortcut": "h",
+        "keywords": "Project Home",
+        "perform": "{pid}/project/home",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-reports",
+        "name": "Project > Reports",
+        "shortcut": "rep",
+        "keywords": "Project Reports",
+        "perform": "{pid}/project/reports",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-documents",
+        "name": "Project > Documents",
+        "shortcut": "doc",
+        "keywords": "Project Documents",
+        "perform": "{pid}/project/documents",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-directory",
+        "name": "Project > Directory",
+        "shortcut": "dir",
+        "keywords": "Project Directory",
+        "perform": "{pid}/project/directory",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-tasks",
+        "name": "Project > Tasks",
+        "shortcut": "t",
+        "keywords": "Project Tasks",
+        "perform": "{pid}/project/task_items",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin",
+        "name": "Project > Admin",
+        "keywords": "Project Admin",
+        "perform": "{pid}/project/admin",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-correspondence",
+        "name": "Project > Correspondence",
+        "keywords": "Project Correspondence",
+        "perform": "{pid}/project/correspondence_types",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-emails",
+        "name": "Project > Emails",
+        "shortcut": "e",
+        "keywords": "Project Emails",
+        "perform": "{pid}/project/communications",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-rfis",
+        "name": "Project > RFIs",
+        "keywords": "Project RFI RFIs",
+        "perform": "{pid}/project/rfi",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-submittals",
+        "name": "Project > Submittals",
+        "keywords": "Project Submittals",
+        "perform": "{pid}/project/submittal_log",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-instructions",
+        "name": "Project > Instructions",
+        "keywords": "Project Site Instructions ",
+        "perform": "{pid}/project/site_instructions",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-transmittals",
+        "name": "Project > Transmittals",
+        "keywords": "Project Transmittals",
+        "perform": "{pid}/project/transmittals",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-inspections",
+        "name": "Project > Inspections",
+        "keywords": "Project Inspections Checklists",
+        "perform": "{pid}/project/checklists/lists/",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-incidents",
+        "name": "Project > Incidents",
+        "keywords": "Project Incidents",
+        "perform": "{pid}/project/incidents",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-observations",
+        "name": "Project > Observations",
+        "keywords": "Project Observations",
+        "perform": "{pid}/project/observations/items",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-punch-list",
+        "name": "Project > Punch List",
+        "keywords": "Project Punch List",
+        "perform": "{pid}/project/punch_list",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-meetings",
+        "name": "Project > Meetings",
+        "keywords": "Project Meetings",
+        "perform": "{pid}/project/meetings",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-schedule",
+        "name": "Project > Schedule",
+        "keywords": "Project Schedule Calendar",
+        "perform": "{pid}/project/calendar",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-daily-log",
+        "name": "Project > Daily Log",
+        "keywords": "Project Daily Log",
+        "perform": "{pid}/project/daily_log",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-photos",
+        "name": "Project > Photos",
+        "keywords": "Project Photos",
+        "perform": "{pid}/project/images",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-drawings",
+        "name": "Project > Drawings",
+        "keywords": "Project Drawings",
+        "perform": "{pid}/project/drawing_log",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-specifications",
+        "name": "Project > Specifications",
+        "keywords": "Project Specifications",
+        "perform": "{pid}/project/specification_sections",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-assemble",
+        "name": "Project > Assemble",
+        "keywords": "Project Assemble",
+        "perform": "{pid}/project/assemble_views",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-forms",
+        "name": "Project > Forms",
+        "keywords": "Project Forms",
+        "perform": "{pid}/project/forms",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-coordination-issues",
+        "name": "Project > Coordination Issues",
+        "keywords": "Project Coordination Issues",
+        "perform": "{pid}/project/coordination_issues",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-prime-contracts",
+        "name": "Project > Prime Contracts",
+        "keywords": "Project Prime Contracts",
+        "perform": "{pid}/project/prime_contracts",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-budget",
+        "name": "Project > Budget",
+        "keywords": "Project Budget",
+        "perform": "/projects/{pid}/budgeting",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-direct-costs",
+        "name": "Project > Direct Costs",
+        "keywords": "Project Direct Costs",
+        "perform": "{pid}/project/direct_costs",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-commitments",
+        "name": "Project > Commitments",
+        "keywords": "Project Commitments",
+        "perform": "{pid}/project/commitments",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-change-orders",
+        "name": "Project > Change Orders",
+        "keywords": "Project Change Orders",
+        "perform": "{pid}/project/change_orders",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-change-events",
+        "name": "Project > Change Events",
+        "keywords": "Project Change Events",
+        "perform": "{pid}/project/change_events/events",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-invoicing",
+        "name": "Project > Invoicing",
+        "keywords": "Project Invoicing",
+        "perform": "{pid}/project/invoicing",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-timesheets",
+        "name": "Project > Timesheets",
+        "keywords": "Project Timesheets",
+        "perform": "{pid}/project/timesheets",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-crews",
+        "name": "Project > Crews",
+        "keywords": "Project Crews",
+        "perform": "{pid}/project/crews",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-equipment",
+        "name": "Project > Equipment",
+        "keywords": "Project Equipment",
+        "perform": "{pid}/project/managed_equipment",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-bidding",
+        "name": "Project > Bidding",
+        "keywords": "Project Bidding",
+        "perform": "{pid}/project/bidding",
+        "area": "tools",
+        "scope": "project"
+    },
+    {
+        "id": "project-bidding-create-package",
+        "name": "Project > Create a Bid Package",
+        "keywords": "New Create Bid Package Bidding",
+        "perform": "{pid}/project/bidding/new",
+        "area": "bidding",
+        "scope": "project"
+    },
+    {
+        "id": "directory-add-create-user",
+        "name": "Project > Directory > Add User",
+        "keywords": "Directory Add Create User",
+        "perform": "{pid}/project/directory/popup_add_person",
+        "area": "directory",
+        "scope": "project"
+    },
+    {
+        "id": "directory-add-create-company",
+        "name": "Project > Directory > Add Company",
+        "keywords": "Directory Add Create Company",
+        "perform": "{pid}/project/directory/popup_add_vendor",
+        "area": "directory",
+        "scope": "project"
+    },
+    {
+        "id": "directory-add-create-distribution-group",
+        "name": "Project > Directory > Add Distribution Group",
+        "keywords": "Directory Add Create Distribution Group",
+        "perform": "{pid}/project/directory/popup_add_distribution_group",
+        "area": "directory",
+        "scope": "project"
+    },
+    {
+        "id": "directory-bulk-add-create-from-co-directory",
+        "name": "Project > Directory > Bulk Add from Co Directory",
+        "keywords": "Directory Bulk Add Create from Co Directory",
+        "perform": "{pid}/project/directory/bulk_add",
+        "area": "directory",
+        "scope": "project"
+    },
+    {
+        "id": "directory-download-existing-vendors-for-import",
+        "name": "Project > Directory > Download Existing Vendors for Import",
+        "keywords": "Directory Download Existing Vendors for Import",
+        "perform": "{pid}/project/directory/vendors_for_import",
+        "area": "directory",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-general",
+        "name": "Project > Admin > General",
+        "keywords": "Project Admin",
+        "perform": "{pid}/project/admin?subtab=general_project_settings",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-active-tools",
+        "name": "Project > Admin > Active Tools",
+        "keywords": "Project Admin Active Tools Tabs",
+        "perform": "{pid}/project/admin/active_tabs",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-work-breakdown-structure",
+        "name": "Project > Admin > Work Breakdown Structure",
+        "keywords": "Project Admin Work Breakdown Structure wbs",
+        "perform": "webclients/host/companies/{cid}/projects/{pid}/tools/wbs",
+        "area": "admin",
+        "scope": "project & company"
+    },
+    {
+        "id": "project-admin-working-days",
+        "name": "Project > Admin > Working Days",
+        "keywords": "Project Admin Working Days",
+        "perform": "{pid}/project/admin/working_days",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-locations",
+        "name": "Project > Admin > Locations",
+        "keywords": "Project Admin Locations",
+        "perform": "{pid}/project/admin/locations",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-classifications",
+        "name": "Project > Admin > Classifications",
+        "keywords": "Project Admin Classifications",
+        "perform": "{pid}/project/admin/work_classifications",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-cost-code-cost-type-assignments",
+        "name": "Project > Admin > Cost Code Cost Type Assignments",
+        "keywords": "Project Admin Cost Code Cost Type Assignments",
+        "perform": "{pid}/project/admin/cost_codes_line_item_types",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-equipment",
+        "name": "Project > Admin > Equipment",
+        "keywords": "Project Admin Equipment",
+        "perform": "{pid}/project/admin/equipment",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-webhooks",
+        "name": "Project > Admin > Webhooks",
+        "keywords": "Project Admin Webhooks",
+        "perform": "{pid}/project/admin/webhooks",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-unit-quantity-based-budget",
+        "name": "Project > Admin > Unit Quantity Based Budget",
+        "keywords": "Project Admin Unit Quantity Based Budget UQBB",
+        "perform": "{pid}/project/admin/unit_quantity_based_budget",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-home",
+        "name": "Project > Admin > Home",
+        "keywords": "Project Admin Home Tab",
+        "perform": "{pid}/project/admin?subtab=home_tab_settings",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-emails",
+        "name": "Project > Admin > Emails",
+        "keywords": "Project Admin Emails Tab",
+        "perform": "{pid}/project/admin?subtab=comm_tab_settings",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-bidding",
+        "name": "Project > Admin > Bidding",
+        "keywords": "Project Admin Bidding Tab",
+        "perform": "{pid}/project/admin?subtab=bid_tab_settings",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-punch-list",
+        "name": "Project > Admin > Punch List",
+        "keywords": "Project Admin Punch List Tab",
+        "perform": "{pid}/project/admin?subtab=punch_list_tab_settings",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-admin-documents",
+        "name": "Project > Admin > Documents",
+        "keywords": "Project Admin Documents Tab",
+        "perform": "{pid}/project/admin?subtab=documents_tab_settings",
+        "area": "admin",
+        "scope": "project"
+    },
+    {
+        "id": "project-create-addendum",
+        "name": "Project > Corr. > Create Addendum",
+        "keywords": "Create New Addendum",
+        "perform": "{pid}/project/generic_tool/new?tool_id=269",
+        "area": "correspondence",
+        "scope": "project"
+    },
+    {
+        "id": "project-create-bulletin",
+        "name": "Project > Corr. > Create Bulletin",
+        "keywords": "Create New Bulletin",
+        "perform": "{pid}/project/generic_tool/new?tool_id=255",
+        "area": "correspondence",
+        "scope": "project"
+    },
+    {
+        "id": "project-create-change-request",
+        "name": "Project > Corr. > Create Change Request",
+        "keywords": "Create New Change Request",
+        "perform": "{pid}/project/generic_tool/new?tool_id=256",
+        "area": "correspondence",
+        "scope": "project"
+    },
+    {
+        "id": "project-create-field-request",
+        "name": "Project > Corr. > Create Field Request",
+        "keywords": "Create New Field Request",
+        "perform": "{pid}/project/generic_tool/new?tool_id=284",
+        "area": "correspondence",
+        "scope": "project"
     }
 ]
