@@ -93,17 +93,23 @@ function processLinks(companyId: string | null) {
       ...link,
       shortcut: link.shortcut?.split(" "),
       perform: () => {
-        let tmpPath = link.perform;
+        let tmpLink = link.perform;
 
         if (companyId) {
-          tmpPath = tmpPath.replaceAll("{cid}", companyId);
+          tmpLink = tmpLink.replaceAll("{cid}", companyId);
         }
 
         if (projectId) {
-          tmpPath = tmpPath.replaceAll("{pid}", projectId);
+          tmpLink = tmpLink.replaceAll("{pid}", projectId);
         }
 
-        window.location.pathname = tmpPath;
+        const [ path, search ] = tmpLink.split("?");
+
+        window.location.pathname = path;
+
+        if (search) {
+          window.location.search = search;
+        }
       },
     }
   });
