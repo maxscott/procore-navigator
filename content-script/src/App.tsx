@@ -103,13 +103,7 @@ function processLinks(companyId: string | null) {
           tmpLink = tmpLink.replaceAll("{pid}", projectId);
         }
 
-        const [ path, search ] = tmpLink.split("?");
-
-        window.location.pathname = path;
-
-        if (search) {
-          window.location.search = search;
-        }
+        window.location.href = "/" + tmpLink;
       },
     }
   });
